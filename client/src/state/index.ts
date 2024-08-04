@@ -10,6 +10,7 @@ const initialState: InitialStateTypes = {
   isDarkMode: false,
 };
 
+// Handles the state of Dark Mode and Sidebar Collapse
 export const globalSlice = createSlice({
   name: "global",
   initialState,
