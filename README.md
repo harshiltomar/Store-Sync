@@ -1,6 +1,9 @@
 # Design
 ![alt text](image.png)
 
+# Data Modelling
+![alt text](image-1.png)
+
 # Tech Stack
 
 - **Next JS**
