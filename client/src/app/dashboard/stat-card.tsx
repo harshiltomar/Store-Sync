@@ -1,14 +1,14 @@
 import { LucideIcon } from "lucide-react";
 import React from "react";
 
-type StatDetail = {
+interface StatDetail {
     title: string;
     amount: string;
     changePercentage: number;
     IconComponent: LucideIcon;
 };
 
-type StatCardProps = {
+interface StatCardProps {
     title: string;
     primaryIcon: JSX.Element;
     details: StatDetail[];
