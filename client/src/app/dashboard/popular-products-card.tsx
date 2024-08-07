@@ -3,7 +3,7 @@ import { ShoppingBag } from "lucide-react";
 import React from "react";
 import Rating from "../(components)/Rating";
 
-const CardPopularProducts = () => {
+export default function CardPopularProducts() {
     const { data: dashboardMetrics, isLoading } = useGetDashboardMetricsQuery();
 
     return (
@@ -53,4 +53,3 @@ const CardPopularProducts = () => {
     );
 };
 
-export default CardPopularProducts;
