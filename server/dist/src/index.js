@@ -24,9 +24,6 @@ app.use(body_parser_1.default.urlencoded({
 }));
 app.use((0, cors_1.default)());
 /*ROUTES*/
-app.get("/", (req, res) => {
-    res.send('Hello world');
-});
 app.use("/dashboard", dashboardRoutes_1.default);
 /*SERVER*/
 const port = process.env.PORT || 3000;

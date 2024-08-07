@@ -21,10 +21,6 @@ app.use(bodyParser.urlencoded({
 app.use(cors());
 
 /*ROUTES*/
-app.get("/", (req, res) => {
-    res.send('Hello world')
-})
-
 app.use("/dashboard", dashboardRoutes);
 
 /*SERVER*/
